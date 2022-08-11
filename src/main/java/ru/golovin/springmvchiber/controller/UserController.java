@@ -13,7 +13,7 @@ import javax.validation.Valid;
 
 
 @Controller
-@RequestMapping(value = "/users")
+@RequestMapping
 public class UserController {
 
     private final UserService userService;
@@ -23,7 +23,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping()
+    @GetMapping("/users")
     public String index(Model model) {
         model.addAttribute("users", userService.getAllUsers());
         return "users/index";
