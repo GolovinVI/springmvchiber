@@ -50,7 +50,6 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.9.6" />
         </element>
       </element>
-      <element id="library" level="project" name="Java EE 6-Java EE 6" />
       <element id="javaee-facet-resources" facet="springmvchiber/web/Web" />
     </root>
   </artifact>
